@@ -1,0 +1,25 @@
+<meta>
+
+	<script src='Eminem_Client.lua' type='client'cache='false'/>
+	<script src='server.lua' type='server'/>
+	<file src="html/index.html"/>
+	<file src="html/script.js"/>
+	<file src="html/css/stylenew.css"/>
+	<file src="html/avatars/logo.png"/> 
+	<file src="html/avatars/user.png"/>
+	<file src="html/avatars/romcis/1.png"/>
+	<file src="html/avatars/romcis/2.png"/>
+	<file src="html/avatars/romcis/1.gif"/>
+	<file src="html/avatars/Alashaq.gif"/>
+	<file src="html/avatars/fahad.gif"/>
+	<file src="html/avatars/hamza.gif"/>
+	<file src="html/avatars/rsh.png"/>
+	<file src="html/avatars/free/1.png"/>
+	<file src="html/avatars/free/2.png"/>
+	<file src="html/avatars/free/3.png"/>
+	<file src="html/avatars/free/4.png"/>
+	<file src="html/avatars/free/5.png"/>
+	<file src="html/avatars/free/6.png"/>
+	<file src="html/avatars/free/7.png"/>
+	<file src="html/avatars/free/8.png"/>
+</meta>

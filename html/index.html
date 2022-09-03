@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="css/stylenew.css" id="css_default">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+  </head>
+  <body> 
+    <article class="leaderboard" id="scoreboard" style="display: flix;">
+      <header>
+        <img style="enable-background:new 0 0 511.999 511.999;"  class="leaderboard__icon" id="logo" src="avatars/logo.png">
+        <h1 class="leaderboard__title" style=" position: absolute; z-index: 2; top: 50%; left: calc(var(--start) * .91); transform: translateY(-50%); text-transform: uppercase; margin: 0;">
+          <span class="leaderboard__title--top" style="padding: 0 0 5px;position: absolute;top: -5px;font-size: 19px;">
+	        <i class=""></i>ArabNight</span>
+        </h1>
+        <button id="myBtn" style="width: 50px; position: absolute; top: 3.4%; right: 0.4%; padding: 1px; background-color: #01588c; border: 1px solid #27272726;">
+          <img id="myavatar" src="avatars/logo.png" style=" width: 100%; ">
+        </button>
+        <h1 class="leaderboard__title">
+          <span class="leaderboard__title--top" id="title1">ArabNight RP</span>
+          <span class="leaderboard__title--bottom" id="title2">Scoreboard</span>
+          <span class="leaderboard__title--bottom">
+            <i class="fas fa-exclamation-triangle"></i>
+            <content id="count"></content>- <content id="max">100</content>
+          </span>
+        </h1>
+      </header>
+      <main class="leaderboard__profiles" id="main">
+      </main>
+      <div id="myModal" class="modal" style="display: flix;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">×</span>
+            <h2>Avatar Setting</h2>
+          </div>
+          <div class="modal-body">
+            <form id="manage" action="index.html" method="post">
+              <label for="url">Avatar URL:</label>
+              <input type="text" id="url" name="url">
+              <button id="changeavatar">Change Avatar</button>
+            </form>
+            <img id="currentavatar" src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/0a/0afd0496fab960adffbc86933c84a7ca70d1261b_full.jpg" alt="profile" class="leaderboard__picture" style="    position: absolute;top: 41%;right: 4%;width: 120px;">
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="script.js"></script>
+    </article>
+  </body>
+</html>
